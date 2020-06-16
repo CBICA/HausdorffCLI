@@ -8,16 +8,8 @@ import os
 block_cipher = None
 
 
-a = Analysis(['Hausdorff95'],
+a = Analysis(['Hausdorff95.py'],
              pathex=[os.getcwd()],
-             binaries=[],
-             datas=[],
-             hiddenimports=['numpy.core._dtype_ctypes', 'nibabel'],
-             hookspath=[],
-             runtime_hooks=[],
-             excludes=['matplotlib'],
-             win_no_prefer_redirects=False,
-             win_private_assemblies=False,
              cipher=block_cipher,
              noarchive=False)
 pyz = PYZ(a.pure, a.zipped_data,
@@ -29,7 +21,7 @@ exe = EXE(pyz,
           a.datas,
           [],
           name='Hausdorff95',
-          debug=False,
+          debug=True,
           bootloader_ignore_signals=False,
           strip=False,
           upx=True,
