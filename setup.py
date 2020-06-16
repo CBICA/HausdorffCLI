@@ -15,9 +15,9 @@ setup(name='Hausdorff95',
       install_requires=[
       'MedPy==0.4.0',
       'setuptools>=47',
-      'PyInstaller==3.6'
+      'PyInstaller'
       ],
-      scripts=['Hausdorff95'],
+      scripts=['Hausdorff95.py'],
       classifiers=[
           'Intended Audience :: Science/Research',
           'Programming Language :: Python',
