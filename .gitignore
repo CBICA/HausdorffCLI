@@ -2,3 +2,4 @@ venv/*
 *.egg*
 build
 dist/*
+*pycache*
