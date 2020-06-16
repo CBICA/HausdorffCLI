@@ -1,6 +1,6 @@
 # Hausdorff95
 
-A simple CLI that calculates Hausdorff-95 distance for 2 binary images.
+A simple CLI that calculates Hausdorff-95 distance for 2 binary images (to address https://github.com/CBICA/CaPTk/issues/1130)
 
 ## Installation
 
