@@ -5,6 +5,7 @@ import argparse
 import os
 from medpy.metric.binary import hd95
 import SimpleITK as sitk
+import pkg_resources
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(prog='Hausdorff95', formatter_class=argparse.RawTextHelpFormatter,
@@ -24,8 +25,8 @@ if __name__ == '__main__':
                           
   args = parser.parse_args()
 
-  groundTruth = os.path.abspath(args.gt)
-  maskImage = os.path.abspath(args.m)
+  groundTruth = os.path.abspath(args.groundTruth)
+  maskImage = os.path.abspath(args.maskImage)
 
   gt = sitk.GetArrayFromImage(sitk.ReadImage(groundTruth))
   mk = sitk.GetArrayFromImage(sitk.ReadImage(maskImage))
