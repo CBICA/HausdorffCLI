@@ -14,7 +14,8 @@ setup(name='Hausdorff95',
       zip_safe=False,
       install_requires=[
       'MedPy==0.4.0',
-      'setuptools'
+      'setuptools>=47',
+      'PyInstaller==3.6'
       ],
       scripts=['Hausdorff95'],
       classifiers=[
