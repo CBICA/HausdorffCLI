@@ -13,5 +13,5 @@ pip install -e .
 ## Usage
 
 ```powershell
-python ./Hausdorff95.py -gt ${path_to_ground_truth_image} -m ${path_to_mask_image}
+python ./Hausdorff95.py -gt ./data/gt.nii.gz -m ./data/mask.nii.gz
 ```
