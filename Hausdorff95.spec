@@ -10,7 +10,7 @@ block_cipher = None
 
 a = Analysis(['Hausdorff95.py'],
              pathex=[os.getcwd()],
-             hiddenimports=['numpy.core._dtype_ctypes'],
+             hiddenimports=['numpy.core._dtype_ctypes', 'pkg_resources.py2_warn'],
              binaries=[],
              datas=[],
              hookspath=[],
