@@ -15,3 +15,11 @@ pip install -e .
 ```powershell
 python ./Hausdorff95.py -gt ./data/gt.nii.gz -m ./data/mask.nii.gz
 ```
+
+## Compiling into executable
+
+Follow [instructions](##Installation) to setup the environment and activate it.
+
+```powershell
+python runPyInstaller.py
+```
