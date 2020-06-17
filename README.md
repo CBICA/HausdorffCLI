@@ -7,7 +7,6 @@ A simple CLI that calculates Hausdorff-95 distance for 2 binary images (to addre
 ```powershell
 conda create -p ./venv python=3.6.5 -y
 conda activate ./venv
-pip install https://github.com/pyinstaller/pyinstaller/archive/develop.zip # the stable PyInstaller does not work: https://stackoverflow.com/a/59809064
 pip install -e .
 ```
 
