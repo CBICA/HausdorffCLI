@@ -9,7 +9,7 @@ import pkg_resources
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(prog='Hausdorff95', formatter_class=argparse.RawTextHelpFormatter,
-                                    description='\nThis code is used to get the Hausdorff 95th percentile.'+\
+                                    description='\nThis code is used to get the Hausdorff 95th percentile. '+\
   'For questions and feedback contact: software@cbica.upenn.edu')
 
   parser.add_argument('-gt', dest='groundTruth', type=str,
