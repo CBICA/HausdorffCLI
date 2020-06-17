@@ -21,7 +21,7 @@ if __name__ == '__main__':
                       required=True)
   
   # parser.add_argument('-v', '--version', action='version',
-  #                     version=pkg_resources.require("Hausdorff95")[0].version, help="Show program's version number and exit.")
+  #                     version=pkg_resources.require("Hausdorff95")[0].version, help="Show program's version number and exit.") # disabled because pyinstaller doesn't import it properly
                           
   args = parser.parse_args()
 
