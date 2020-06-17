@@ -20,8 +20,8 @@ if __name__ == '__main__':
                       help='The annotated mask to compare against ground truth.\n',
                       required=True)
   
-  parser.add_argument('-v', '--version', action='version',
-                      version=pkg_resources.require("Hausdorff95")[0].version, help="Show program's version number and exit.")
+  # parser.add_argument('-v', '--version', action='version',
+  #                     version=pkg_resources.require("Hausdorff95")[0].version, help="Show program's version number and exit.")
                           
   args = parser.parse_args()
 
