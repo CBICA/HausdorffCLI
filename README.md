@@ -23,3 +23,5 @@ Follow [instructions](##Installation) to setup the environment and activate it.
 ```powershell
 python runPyInstaller.py
 ```
+
+The full-contained executable should be generated under `./dist/`.
